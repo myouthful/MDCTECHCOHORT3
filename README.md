@@ -102,12 +102,13 @@ The project maintainer will review and merge your work.
 Check current branch:
 
 ```bash
+
 git branch
 
 ```
 Switch to another branch:
 
-``bash
+```bash
 git checkout branch-name
 
 ```
