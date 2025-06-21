@@ -5,22 +5,13 @@ In this phase, you’ll build real projects and collaborate using **Git and GitH
 
 This guide will help you learn how to use GitHub step-by-step.
 
----
 
-## 📁 Step 1: Fork the Repository (If You Don't Have Push Access)
-
-1. Go to the GitHub repository in your browser.
-2. Click the **"Fork"** button at the top right to create your own copy.
-3. This creates the project under **your own GitHub account**.
-
----
-
-## 🔄 Step 2: Clone the Repository to Your Computer
+## 🔄 Step 1: Clone the Repository to Your Computer
 
 In your terminal or VS Code:
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/myouthful/MDCTECHCOHORT3.git
 
 
 Then move into the project folder:
