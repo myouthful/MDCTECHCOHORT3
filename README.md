@@ -18,19 +18,22 @@ Then move into the project folder:
 
 cd project-name
 
+```
 
----
-
-🌿 Step 3: Create Your Own Branch
+## 🌿 Step 3: Create Your Own Branch
 
 Before you start working, create a new branch:
 
+```bash
 git checkout -b your-name-feature
 
+```
 Example:
 
+```bash
 git checkout -b gideon-auth-page
 
+```
 
 ---
 
@@ -46,13 +49,17 @@ Edit or create files for your task. Make sure your changes are saved.
 
 Once you’re done:
 
+```bash
 git add .
 git commit -m "A short message describing what you did"
 
+```
+
 Example:
 
+```bash
 git commit -m "Added login page and connected to API"
-
+```
 
 ---
 
@@ -60,8 +67,10 @@ git commit -m "Added login page and connected to API"
 
 Push your branch to your own repo:
 
+```bash
 git push origin your-name-feature
 
+```
 
 ---
 
@@ -92,19 +101,22 @@ The project maintainer will review and merge your work.
 
 Check current branch:
 
-
+```bash
 git branch
 
+```
 Switch to another branch:
 
-
+``bash
 git checkout branch-name
+
+```
 
 Pull latest changes from original repo (if you've added it as upstream):
 
-
+```bash
 git pull upstream main
-
+```
 
 ---
 
