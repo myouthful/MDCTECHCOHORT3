@@ -119,6 +119,7 @@ export default {
       fontWeight:{
         'font-weight-700':'700',
         'font-weight-400':'400',
+        'font-weight-600':'600'
       },
       lineHeight:{
         'lg-80':'5rem',
