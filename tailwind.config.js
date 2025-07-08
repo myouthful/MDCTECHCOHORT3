@@ -65,7 +65,7 @@ export default {
       backgroundColor:{
        'test-child-bgColor':'green',
        'test-parent-bgColor':'yellow',
-       
+       'sea-blue':'#BFD1EB'
       },
       /*==============*\
       background Image section
@@ -73,6 +73,7 @@ export default {
       backgroundImage:{
  'hero-bg':'url(/images/hero.jpg)',
  'hero-footer-bg':'url(/images/hero-footer.png)',
+ 'levu-bg':'url(/images/levu0.jpg)'
  
       },
       /*==============*\
@@ -92,7 +93,8 @@ export default {
         '908': '56.75rem',
          '-1px': '-0.0625rem',
          '-0.12':'-0.0075rem',
-         '-1.89':'-0.118125rem'
+         '-1.89':'-0.118125rem',
+         '70':'4.375rem',
       },
       /*==============*\
        Gap section

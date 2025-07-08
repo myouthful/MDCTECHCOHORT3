@@ -2,6 +2,9 @@ import CTA from "./Components/CTA"
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
 import HeroFooter from "./Components/hero_footer"
+import Testimonial from "./Components/Testimonial"
+import TestimonialCard from "./Components/TestimonialCard"
+
 function App() {
   return (
    <>
@@ -19,6 +22,10 @@ function App() {
         {/* CTA content goes here */}
         <section className="  flex justify-center items-center w-width-1440 h-636 top-908 left--1px bg-white">
          <CTA/>
+        </section>
+        <section className="">
+          <Testimonial/>
+          {/* <TestimonialCard/> */}
         </section>
     </main>
    </>

@@ -22,7 +22,7 @@ const ctaSteps = [
   },
 ];
 
-function CTA() {
+export default function CTA() {
   return (
     <div className="flex flex-col max-w-[1241px] mx-auto px-4 py-12 gap-12">
       <div className="text-center">
@@ -55,4 +55,4 @@ function CTA() {
   );
 }
 
-export default CTA;
+//export default CTA;

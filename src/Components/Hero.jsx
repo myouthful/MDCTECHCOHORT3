@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function Hero() {
   return (
     <div className="flex mx-20 flex-col w-width-729 h-height-359.34-auto
@@ -9,7 +15,7 @@ function Hero() {
           <div className="w-width-628 h-height-52" >
             <p className="font-inter font-font-weight-400 text-font-size-20 leading-lg-24 tracking-normal text-neutral">Find verified freelance, short-term, daily jobs around you and build your skills.</p>
           </div>
-        <div className="flex mr-20 h-24 gap-5">
+        <div className="flex mr-20 h-24 gap-0">
           <div className=" flex w-24 h-24 ">
                  <img src="/images/img1.png" alt="user" className="w-25.89 h-25.55 -top--0.12 -left--1.89 rounded-full" />
           </div>
