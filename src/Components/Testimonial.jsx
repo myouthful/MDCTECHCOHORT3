@@ -53,18 +53,18 @@ function LevelUp() {
 }
 
 
-<div className="w-[565px] h-[260px] top-[-0.49px]">
-          <div className="flex flex-col w-[562px] h-fit gap-[20px] ">
-            <div className="flex flex-col w-[562px] h-fit gap-[20px]">
-              <div className="w-[507px] h-[116px] py-16 px-16">
+// <div className="w-[565px] h-[260px] top-[-0.49px]">
+//           <div className="flex flex-col w-[562px] h-fit gap-[20px] ">
+//             <div className="flex flex-col w-[562px] h-fit gap-[20px]">
+//               <div className="w-[507px] h-[116px] py-16 px-16">
                 
                 
-                <button className=" bg-primary text-white px-5 py-2 rounded-md hover:bg-blue-700 transition">
-                  For Talents
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+//                 <button className=" bg-primary text-white px-5 py-2 rounded-md hover:bg-blue-700 transition">
+//                   For Talents
+//                 </button>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
 
 export default Testimonial;

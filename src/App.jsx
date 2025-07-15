@@ -2,13 +2,13 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import FAQ from "./Components/FAQ";
 import Contact_us from "./Components/Contact_us";
-import SignIn from "./Components/SignIn";
-import SignUp from './Components/SignUp'
-import GetStart from './Components/GetStart'
-
+import Login from "./Components/Login";
+import Register from './Components/Register'
+import Start from './Components/Start'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useEffect, useState } from "react";
 import BusyLoader from "./Components/BusyLoader";
+
 
 
 const createRoute = createBrowserRouter([
@@ -17,9 +17,9 @@ const createRoute = createBrowserRouter([
   { path: "/about", element: <About />},
   {path: "/contact_us",element: <Contact_us />},
    {path: "/faq", element: <FAQ />},
-  {path: '/signIn', element: <SignIn/>},
-  {path:'/signUp', element: <SignUp/>},
-  {path:'/get_started', element: <GetStart/>}
+  {path: '/login', element: <Login/>},
+  {path:'/register', element: <Register/>},
+  {path:'/start', element: <Start/>}
   // {
     
   //   element: <LayOut/>,
