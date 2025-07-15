@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode:'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -28,7 +29,10 @@ export default {
         '168':'10.5rem',
         '24':'1.5rem',
         '25.89':'1.618125rem',
-        '374.45':'23.403125rem'
+        '374.45':'23.403125rem',
+        '790':'49.375rem',
+        '1239':'77.4375rem',
+        'lstw':'150px'
       },
       /*==============*\
       Heights sections
@@ -50,7 +54,8 @@ export default {
          '248': '15.5rem',
          '24': '1.5rem',
          '25.55':'1.596875rem',
-         '43.34':'2.70875rem'
+         '43.34':'2.70875rem',
+         'lsh':'18.3px'
         
       },
       /*==============*\
@@ -73,7 +78,8 @@ export default {
       backgroundImage:{
  'hero-bg':'url(/images/hero.jpg)',
  'hero-footer-bg':'url(/images/hero-footer.png)',
- 'levu-bg':'url(/images/levu0.jpg)'
+ 'levu-bg':'url(/images/levu0.jpg)',
+ 'footer-hero-bg':'url(/images/tstf.jpg)'
  
       },
       /*==============*\
@@ -113,7 +119,16 @@ export default {
         'primary':'#3361A3',
         'neutral':'#777777',
         'white':'#FFFFFF',
-        'neutral-black':'#333333'
+        'neutral-black':'#333333',
+        'mission':'#1F3B63',
+        'vission':'#12856E',
+        'core':'#750D59',
+        'content-txt':'#606060',
+        'faqs':'#9FBAE14D',
+        'mgs':'#E8E8E8',
+        'txt-mgs':'#535F6C',
+        'btn-col':'#3E75C3',
+        'txt-bg':'#DFF5E6B2'
       },
       /*==============*\
        font weight section

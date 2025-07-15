@@ -2,7 +2,9 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import FAQ from "./Components/FAQ";
 import Contact_us from "./Components/Contact_us";
-import LayOut from "./Layouts/Layout";
+import SignIn from "./Components/SignIn";
+import SignUp from './Components/SignUp'
+import GetStart from './Components/GetStart'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -14,8 +16,11 @@ const createRoute = createBrowserRouter([
   {path: '', element: < Home />},
   { path: "/about", element: <About />},
   {path: "/contact_us",element: <Contact_us />},
-   {path: "/faq", element: <FAQ />}
-  //{Home
+   {path: "/faq", element: <FAQ />},
+  {path: '/signIn', element: <SignIn/>},
+  {path:'/signUp', element: <SignUp/>},
+  {path:'/get_started', element: <GetStart/>}
+  // {
     
   //   element: <LayOut/>,
   //   path: "/",
@@ -40,7 +45,7 @@ export default function App() {
     // set time out
     const time_out = setTimeout(() => {
       setBusyLoader(false);
-    }, 5000); // load for 3 second
+    }, 2000); // load for 3 second
     return () => clearTimeout(time_out);
   }, []);
   if (busyLoader) {

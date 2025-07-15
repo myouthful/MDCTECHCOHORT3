@@ -1,24 +1,34 @@
-
+import { Link } from "react-router-dom";
 const ctaSteps = [
   {
-    title: 'Sign Up & Verify',
-    icons: <img src="/icons/badge-check.png" className="mb-4 w-8 h-8" alt="Verify" />,
-    txt: 'Create your free account in minutes. Complete a quick verification process to ensure a trusted community for all users.',
+    title: "Sign Up & Verify",
+    icons: (
+      <img src="/icons/badge-check.png" className="mb-4 w-8 h-8" alt="Verify" />
+    ),
+    txt: "Create your free account in minutes. Complete a quick verification process to ensure a trusted community for all users.",
   },
   {
-    title: 'Find Nearby Gigs',
-    icons: <img src="/icons/location-03.png" className="mb-4 w-8 h-8" alt="Location" />,
-    txt: 'Browse real-time listings based on your location and skills. Apply for the ones that suit you best, right from where you are.',
+    title: "Find Nearby Gigs",
+    icons: (
+      <img
+        src="/icons/location-03.png"
+        className="mb-4 w-8 h-8"
+        alt="Location"
+      />
+    ),
+    txt: "Browse real-time listings based on your location and skills. Apply for the ones that suit you best, right from where you are.",
   },
   {
-    title: 'Work & Get Rated',
-    icons: <img src="/icons/badge-star-2.png" className="mb-4 w-8 h-8" alt="Rated" />,
-    txt: 'Complete gigs to the best of your ability. Receive ratings and reviews to build your reputations and unlock more opportunities.',
+    title: "Work & Get Rated",
+    icons: (
+      <img src="/icons/badge-star-2.png" className="mb-4 w-8 h-8" alt="Rated" />
+    ),
+    txt: "Complete gigs to the best of your ability. Receive ratings and reviews to build your reputations and unlock more opportunities.",
   },
   {
-    title: 'Earn While Working',
+    title: "Earn While Working",
     icons: <img src="/icons/dollar.png" className="mb-4 w-8 h-8" alt="Earn" />,
-    txt: 'Get paid quickly for every job you complete. The more you work, the more you earn, it’s that simple.',
+    txt: "Get paid quickly for every job you complete. The more you work, the more you earn, it’s that simple.",
   },
 ];
 
@@ -31,7 +41,7 @@ export default function CTA() {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
         {ctaSteps.map((step, index) => (
           <div
             key={index}
@@ -39,7 +49,9 @@ export default function CTA() {
           >
             <div className="flex flex-col items-center text-center">
               {step.icons}
-              <h3 className="text-lg text-[20px] font-font-weight-600 mb-2">{step.title}</h3>
+              <h3 className="text-lg text-[20px] font-font-weight-600 mb-2">
+                {step.title}
+              </h3>
               <p className="text-sm text-gray-600">{step.txt}</p>
             </div>
           </div>
@@ -48,7 +60,9 @@ export default function CTA() {
 
       <div className="text-center">
         <button className="bg-primary hover:bg-blue-700 text-white font-medium px-6 py-2 rounded">
+          <Link to="/get_started">
           Get Started
+          </Link>
         </button>
       </div>
     </div>
