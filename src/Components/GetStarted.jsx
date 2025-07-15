@@ -13,7 +13,7 @@ const GetStarted = () => {
         trusted local talents.
       </p>
       <button className="hover:bg-blue-700 font-semibold bg-primary py-2 px-4 rounded text-white">
-        <Link to="/get_started">Get Started</Link>
+        <Link to="/start">Get Started</Link>
       </button>
     </div>
     </section>
