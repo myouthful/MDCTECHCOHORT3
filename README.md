@@ -147,3 +147,18 @@ Would you like me to:
 - Adjust this for a React or Node.js project structure?
 
 Let me know and I’ll update it for your exact use case!
+
+---
+
+## 🔐 GitHub Personal Access Token Setup
+
+This project includes MCP (Model Context Protocol) server configuration for enhanced GitHub integration.
+
+To set up Personal Access Token authentication, see: [MCP PAT Setup Guide](./MCP_PAT_SETUP.md)
+
+Quick setup:
+1. Create a GitHub PAT with `repo` and `read:packages` scopes
+2. Restart VS Code MCP server
+3. Enter your PAT when prompted
+
+---
